@@ -1,0 +1,48 @@
+.arrivals {
+  padding-top: 120px;
+  padding-bottom: 143px;
+}
+
+.arrivals__header {
+  margin-bottom: 100px;
+}
+
+.arrivals__cards {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .arrivals {
+    padding-top: 120px;
+    padding-bottom: 143px;
+  }
+
+  .arrivals__header {
+    margin-bottom: 100px;
+    text-align: left;
+  }
+
+  .arrivals__cards {
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 30px;
+  }
+}
+/* Media Query for 320px to 1200px */
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 992px) {
+  
+}
+@media (min-width: 768px) {
+  
+}
+@media (min-width: 480px) {
+  
+}
+@media (min-width: 320px) {
+  
+}
